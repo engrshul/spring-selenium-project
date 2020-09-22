@@ -1,6 +1,6 @@
-package com.noon.oyodemo.page_objects;
+package com.ecomm.oyodemo.page_objects;
 
-import com.noon.oyodemo.DriverBase;
+import com.ecomm.oyodemo.DriverBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

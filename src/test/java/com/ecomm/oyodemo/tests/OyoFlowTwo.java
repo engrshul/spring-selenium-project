@@ -1,12 +1,12 @@
-package com.noon.oyodemo.tests;
+package com.ecomm.oyodemo.tests;
 
-import com.noon.oyodemo.DriverBase;
-import com.noon.oyodemo.page_objects.OyoHomePage;
-import com.noon.oyodemo.page_objects.OyoLoginSignUpPage;
-import com.noon.oyodemo.page_objects.OyoProfilePage;
-import com.noon.oyodemo.page_objects.OyoWelcomePage;
-import com.noon.oyodemo.utilities.ActionHelper;
-import com.noon.oyodemo.utilities.Constants;
+import com.ecomm.oyodemo.page_objects.OyoHomePage;
+import com.ecomm.oyodemo.page_objects.OyoLoginSignUpPage;
+import com.ecomm.oyodemo.page_objects.OyoProfilePage;
+import com.ecomm.oyodemo.page_objects.OyoWelcomePage;
+import com.ecomm.oyodemo.utilities.ActionHelper;
+import com.ecomm.oyodemo.utilities.Constants;
+import com.ecomm.oyodemo.DriverBase;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;

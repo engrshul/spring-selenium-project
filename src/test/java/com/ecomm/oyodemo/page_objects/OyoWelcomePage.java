@@ -1,8 +1,8 @@
-package com.noon.oyodemo.page_objects;
+package com.ecomm.oyodemo.page_objects;
 
-import com.noon.oyodemo.DriverBase;
-import com.noon.oyodemo.utilities.ActionHelper;
-import com.noon.oyodemo.utilities.Constants;
+import com.ecomm.oyodemo.DriverBase;
+import com.ecomm.oyodemo.utilities.ActionHelper;
+import com.ecomm.oyodemo.utilities.Constants;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;

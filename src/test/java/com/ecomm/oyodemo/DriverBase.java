@@ -1,7 +1,7 @@
-package com.noon.oyodemo;
+package com.ecomm.oyodemo;
 
-import com.noon.oyodemo.config.DriverFactory;
-import com.noon.oyodemo.listeners.ScreenshotListener;
+import com.ecomm.oyodemo.config.DriverFactory;
+import com.ecomm.oyodemo.listeners.ScreenshotListener;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;

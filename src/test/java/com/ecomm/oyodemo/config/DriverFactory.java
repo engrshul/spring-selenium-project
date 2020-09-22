@@ -1,10 +1,10 @@
-package com.noon.oyodemo.config;
+package com.ecomm.oyodemo.config;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.MalformedURLException;
-import static com.noon.oyodemo.config.DriverType.FIREFOX;
-import static com.noon.oyodemo.config.DriverType.valueOf;
+
+import static com.ecomm.oyodemo.config.DriverType.valueOf;
 
 
 public class DriverFactory {
@@ -13,10 +13,10 @@ public class DriverFactory {
     private DriverType selectedDriverType;
 
     public DriverFactory() {
-        DriverType driverType = FIREFOX;
+        DriverType driverType = DriverType.FIREFOX;
         String browser = System.getProperty("browser", driverType.toString()).toUpperCase();
         try {
-            driverType = valueOf(browser);
+            driverType = DriverType.valueOf(browser);
         } catch (IllegalArgumentException ignored) {
             System.err.println("Unknown driver specified, defaulting to '" + driverType + "'...");
         } catch (NullPointerException ignored) {

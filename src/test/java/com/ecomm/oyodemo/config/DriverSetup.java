@@ -1,4 +1,4 @@
-package com.noon.oyodemo.config;
+package com.ecomm.oyodemo.config;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;

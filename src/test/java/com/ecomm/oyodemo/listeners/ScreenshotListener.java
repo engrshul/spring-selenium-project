@@ -1,4 +1,4 @@
-package com.noon.oyodemo.listeners;
+package com.ecomm.oyodemo.listeners;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -9,7 +9,7 @@ import org.testng.TestListenerAdapter;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import static com.noon.oyodemo.DriverBase.getDriver;
+import static com.ecomm.oyodemo.DriverBase.getDriver;
 
 
 public class ScreenshotListener extends TestListenerAdapter {

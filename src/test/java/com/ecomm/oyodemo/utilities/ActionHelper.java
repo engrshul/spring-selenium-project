@@ -1,4 +1,4 @@
-package com.noon.oyodemo.utilities;
+package com.ecomm.oyodemo.utilities;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

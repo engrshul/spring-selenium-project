@@ -1,4 +1,4 @@
-package com.noon.oyodemo.utilities;
+package com.ecomm.oyodemo.utilities;
 
 public class Constants {
 
